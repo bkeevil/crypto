@@ -1,0 +1,42 @@
+object Main: TMain
+  Left = 798
+  Height = 240
+  Top = 316
+  Width = 320
+  Caption = 'Main'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.2.5.0'
+  object Algorithms: TComboBox
+    Left = 8
+    Height = 27
+    Top = 8
+    Width = 128
+    ItemHeight = 0
+    OnChange = DoChanged
+    TabOrder = 0
+    Text = 'Algorithms'
+  end
+  object Modes: TComboBox
+    Left = 144
+    Height = 27
+    Top = 8
+    Width = 100
+    ItemHeight = 0
+    OnChange = DoChanged
+    TabOrder = 1
+    Text = 'Modes'
+  end
+  object Memo: TMemo
+    Left = 8
+    Height = 186
+    Top = 48
+    Width = 302
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Lines.Strings = (
+      'Memo'
+    )
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,106 @@
+object Form1: TForm1
+  Left = 405
+  Height = 519
+  Top = 26
+  Width = 757
+  Caption = 'DCP Test'
+  ClientHeight = 519
+  ClientWidth = 757
+  Color = clWhite
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.2.1.0'
+  object SelfTestBtn: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Run'
+    OnClick = SelfTestBtnClick
+    TabOrder = 0
+  end
+  object Grid: TStringGrid
+    Left = 8
+    Height = 473
+    Top = 40
+    Width = 741
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoFillColumns = True
+    ColCount = 9
+    ColumnClickSorts = True
+    Columns = <    
+      item
+        SizePriority = 0
+        Title.Caption = 'Kind'
+        Width = 81
+      end    
+      item
+        Title.Caption = 'Name'
+        Width = 85
+      end    
+      item
+        Alignment = taCenter
+        SizePriority = 0
+        Title.Alignment = taCenter
+        Title.Caption = 'Mode'
+        Width = 81
+      end    
+      item
+        Alignment = taRightJustify
+        SizePriority = 0
+        Title.Alignment = taRightJustify
+        Title.Caption = 'Key Size'
+        Width = 81
+      end    
+      item
+        Alignment = taRightJustify
+        SizePriority = 0
+        Title.Alignment = taRightJustify
+        Title.Caption = 'Block Size'
+        Width = 84
+      end    
+      item
+        Alignment = taCenter
+        SizePriority = 0
+        Title.Alignment = taCenter
+        Title.Caption = 'Self Test'
+        Width = 81
+      end    
+      item
+        Alignment = taRightJustify
+        SizePriority = 0
+        Title.Alignment = taRightJustify
+        Title.Caption = 'Enc Perf'
+        Width = 82
+      end    
+      item
+        Alignment = taRightJustify
+        SizePriority = 0
+        Title.Alignment = taRightJustify
+        Title.Caption = 'Dec Perf'
+        Width = 82
+      end    
+      item
+        Alignment = taRightJustify
+        SizePriority = 0
+        Title.Alignment = taRightJustify
+        Title.Caption = 'Errors'
+        Width = 82
+      end>
+    DefaultRowHeight = 18
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+    ColWidths = (
+      81
+      85
+      81
+      81
+      84
+      81
+      82
+      82
+      82
+    )
+  end
+end
