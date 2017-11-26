@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="crytopkg"/>
+    <Author Value="David Barton, Barko &amp; Graeme Geldenhuys"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="Ciphers;Hashes;$(PkgOutDir)"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+          <CStyleOperator Value="False"/>
+          <IncludeAssertionCode Value="True"/>
+          <AllowLabel Value="False"/>
+          <CPPInline Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Linking>
+        <Debugging>
+          <UseLineInfoUnit Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CustomOptions Value="-Xd"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="DCPcrypt Cryptographic Component Library
+"/>
+    <License Value="DCPcrypt is open source software (released under the MIT license) and as such there is no charge for inclusion in other software.
+www.cityinthesky.co.uk/cryptography.html
+"/>
+    <Version Major="2" Release="4" Build="1"/>
+    <Files Count="25">
+      <Item1>
+        <Filename Value="crypto.pas"/>
+        <UnitName Value="Crypto"/>
+      </Item1>
+      <Item2>
+        <Filename Value="rand.pas"/>
+        <UnitName Value="Rand"/>
+      </Item2>
+      <Item3>
+        <Filename Value="diffiehellman.pas"/>
+        <UnitName Value="DiffieHellman"/>
+      </Item3>
+      <Item4>
+        <Filename Value="cryptoutils.pas"/>
+        <UnitName Value="CryptoUtils"/>
+      </Item4>
+      <Item5>
+        <Filename Value="Ciphers/dcpblowfish.pas"/>
+        <UnitName Value="DCPblowfish"/>
+      </Item5>
+      <Item6>
+        <Filename Value="Ciphers/dcpcast128.pas"/>
+        <UnitName Value="DCPcast128"/>
+      </Item6>
+      <Item7>
+        <Filename Value="Ciphers/dcpcast256.pas"/>
+        <UnitName Value="DCPcast256"/>
+      </Item7>
+      <Item8>
+        <Filename Value="Ciphers/dcpdes.pas"/>
+        <UnitName Value="DCPdes"/>
+      </Item8>
+      <Item9>
+        <Filename Value="Ciphers/dcpice.pas"/>
+        <UnitName Value="DCPice"/>
+      </Item9>
+      <Item10>
+        <Filename Value="Ciphers/dcpidea.pas"/>
+        <UnitName Value="DCPidea"/>
+      </Item10>
+      <Item11>
+        <Filename Value="Ciphers/dcprc2.pas"/>
+        <UnitName Value="DCPrc2"/>
+      </Item11>
+      <Item12>
+        <Filename Value="Ciphers/dcprc5.pas"/>
+        <UnitName Value="DCPrc5"/>
+      </Item12>
+      <Item13>
+        <Filename Value="Ciphers/dcprc6.pas"/>
+        <UnitName Value="DCPrc6"/>
+      </Item13>
+      <Item14>
+        <Filename Value="Ciphers/dcprijndael.pas"/>
+        <UnitName Value="DCPrijndael"/>
+      </Item14>
+      <Item15>
+        <Filename Value="Ciphers/dcpserpent.pas"/>
+        <UnitName Value="DCPserpent"/>
+      </Item15>
+      <Item16>
+        <Filename Value="Ciphers/dcptea.pas"/>
+        <UnitName Value="DCPtea"/>
+      </Item16>
+      <Item17>
+        <Filename Value="Hashes/dcphaval.pas"/>
+        <UnitName Value="DCPhaval"/>
+      </Item17>
+      <Item18>
+        <Filename Value="Hashes/dcpmd4.pas"/>
+        <UnitName Value="DCPmd4"/>
+      </Item18>
+      <Item19>
+        <Filename Value="Hashes/dcpmd5.pas"/>
+        <UnitName Value="DCPmd5"/>
+      </Item19>
+      <Item20>
+        <Filename Value="Hashes/dcpripemd128.pas"/>
+        <UnitName Value="DCPripemd128"/>
+      </Item20>
+      <Item21>
+        <Filename Value="Hashes/dcpripemd160.pas"/>
+        <UnitName Value="DCPripemd160"/>
+      </Item21>
+      <Item22>
+        <Filename Value="Hashes/dcpsha1.pas"/>
+        <UnitName Value="DCPsha1"/>
+      </Item22>
+      <Item23>
+        <Filename Value="Hashes/dcpsha256.pas"/>
+        <UnitName Value="DCPsha256"/>
+      </Item23>
+      <Item24>
+        <Filename Value="Hashes/dcpsha512.pas"/>
+        <UnitName Value="DCPsha512"/>
+      </Item24>
+      <Item25>
+        <Filename Value="Hashes/dcptiger.pas"/>
+        <UnitName Value="DCPtiger"/>
+      </Item25>
+    </Files>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
