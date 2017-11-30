@@ -18,6 +18,9 @@
           <CPPInline Value="False"/>
         </SyntaxOptions>
       </Parsing>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+      </CodeGeneration>
       <Linking>
         <Debugging>
           <UseLineInfoUnit Value="False"/>
